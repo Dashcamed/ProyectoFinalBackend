@@ -77,7 +77,18 @@
 
 .navbar a{
     color: #fff;
+    text-decoration: none;
 
+}
+
+.navbar details{
+    color: #fff;
+    font-size: medium;
+}
+
+.navbar details summary li{
+    list-style: none;
+    text-decoration: none;
 }
 
 .navbar_products{
@@ -168,3 +179,47 @@
     background-color: #fff;
     color: #333;
 }
+
+.product_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 240px;
+    padding: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    min-height: 400px;
+}
+
+.product_form label{
+    text-align: center;
+    font-weight: bold;
+}
+
+.product_form input{
+    width: 100%;
+    margin-block: 10px;
+}
+
+.product_form button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product_form button:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+
