@@ -1,5 +1,9 @@
 # Panaderia hecha con Node js MongoDB y express-handlebars
 
+> [!warning]
+>
+> Profe lea el chat de plataforma para las variables de entorno
+
 ## Pruebas carrito de compras en POSTMAN
 
 * PUT : Modificar todo un carrito de compras:
